@@ -1,6 +1,6 @@
 http://example.com/Resume-CN/index.html
 http://example.com/Resume/index.html
+http://example.com/Publications/index.html
 http://example.com/2023/02/24/hello-world/
 http://example.com/About-CN/index.html
-http://example.com/Publications/index.html
 http://example.com/
