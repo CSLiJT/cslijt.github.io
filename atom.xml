@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-26T02:23:30.133Z</updated>
+  <updated>2023-03-06T08:37:35.451Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2023/02/24/hello-world/"/>
     <id>http://example.com/2023/02/24/hello-world/</id>
     <published>2023-02-24T12:08:42.339Z</published>
-    <updated>2023-02-26T02:23:30.133Z</updated>
+    <updated>2023-03-06T08:37:35.451Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h3><p>I am Jiatong Li. I am currently an M.S. student majoring in data science at <a href="https://www.ustc.edu.cn/"><em>University of Science and Technology of China</em></a> (USTC), supervised by Prof. <a href="http://staff.ustc.edu.cn/~qiliuql/">Qi Liu</a>. I got my B.S. degree at USTC in 2022. My research interest includes data mining, deep learning, causal inference, Bayesian learning, and educational measurement. I have abundant research experience in data mining and published one of my research papers in SIGKDD. I have also paper review experience in top conferences and journals such as NeuraIPS, TKDE, and EDM. In 2021–2022, I used to do internships at <a href="https://ali-home.alibaba.com/">Alibaba</a> and <a href="https://www.iflytek.com/index.html">iFLYTEK</a>.</p><p><a href="/About-CN">中文版本点击这里.</a></p><h3 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h3><ol><li><strong>Jiatong Li</strong>, Fei Wang, Qi Liu, Mengxiao Zhu, Wei Huang, Zhenya Huang*, Enhong Chen, Yu Su, Shĳin Wang (2022). <a href="https://dl.acm.org/doi/10.1145/3534678.3539486">HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework</a>. In KDD (pp. 904–913). ACM. <a href="/attaches/JiatongLi-KDD2022.pdf">[PDF]</a><a href="https://github.com/CSLiJT/HCD-code">[Code]</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<h3 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h3><p>I am Jiatong Li. I am currently an M.S. student majoring in data science at <a href="https://www.ustc.edu.cn/"><em>University of Science and Technology of China</em></a> (USTC), supervised by Prof. <a href="http://staff.ustc.edu.cn/~qiliuql/">Qi Liu</a>. I got my B.S. degree at USTC in 2022. My research interest includes data mining, deep learning, causal inference, Bayesian learning, and educational measurement. I have abundant research experience in data mining and published one of my research papers in SIGKDD. I have also paper review experience in top conferences and journals such as NeuraIPS, SIGKDD, TKDE, and EDM. In 2021–2022, I used to do internships at <a href="https://ali-home.alibaba.com/">Alibaba</a> and <a href="https://www.iflytek.com/index.html">iFLYTEK</a>.</p><p><a href="/About-CN">中文版本点击这里.</a></p><h3 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h3><ol><li><strong>Jiatong Li</strong>, Fei Wang, Qi Liu, Mengxiao Zhu, Wei Huang, Zhenya Huang*, Enhong Chen, Yu Su, Shĳin Wang (2022). <a href="https://dl.acm.org/doi/10.1145/3534678.3539486">HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework</a>. In KDD (pp. 904–913). ACM. <a href="/attaches/JiatongLi-KDD2022.pdf">[PDF]</a><a href="https://github.com/CSLiJT/HCD-code">[Code]</a></li></ol>]]></content>
     
     
       
