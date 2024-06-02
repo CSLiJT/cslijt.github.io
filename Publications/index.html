@@ -12,7 +12,14 @@
 </head>
 
 <p>(*, corresponding author; +, co-first authors)</p>
-<h3 id="Conference-Papers"><a href="#Conference-Papers" class="headerlink" title="Conference Papers"></a>Conference Papers</h3><ol>
+<ol>
+<li><p><strong>Jiatong Li</strong>, Renjun Hu, Kunzhe Huang, Yan Zhuang, Qi Liu*, Mengxiao Zhu, Xing Shi, Wei Lin (2024). <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2405.19740">PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant Perturbations</a>. In Arxiv.</p>
+<details>
+ <summary>Abstract</summary>
+<font size=3>Expert-designed close-ended benchmarks serve as vital tools in assessing the knowledge capacity of large language models (LLMs). Despite their widespread use, concerns have mounted regarding their reliability due to limited test scenarios and an unavoidable risk of data contamination. To rectify this, we present PertEval, a toolkit devised for in-depth probing of LLMs' knowledge capacity through knowledge-invariant perturbations. These perturbations employ human-like restatement techniques to generate on-the-fly test samples from static benchmarks, meticulously retaining knowledge-critical content while altering irrelevant details. Our toolkit further includes a suite of transition analyses that compare performance on raw vs. perturbed test sets to precisely assess LLMs' genuine knowledge capacity. Six state-of-the-art LLMs are re-evaluated using PertEval. Results reveal significantly inflated performance of the LLMs on raw benchmarks, including an absolute 21% overestimation for GPT-4. Additionally, through a nuanced response pattern analysis, we discover that PertEval retains LLMs' uncertainty to specious knowledge, potentially being resolved through rote memorization and leading to inflated performance. We also find that the detailed transition analyses by PertEval could illuminate weaknesses in existing LLMs' knowledge mastery and guide the development of refinement. Given these insights, we posit that PertEval can act as an essential tool that, when applied alongside any close-ended benchmark, unveils the true knowledge capacity of LLMs, marking a significant step toward more trustworthy LLM evaluation.
+</font>
+</details>
+</li>
 <li><p>Fangzhou Yao, Qi Liu, Linan Yue, Weibo Gao, <strong>Jiatong Li</strong>, Xin Li, Yuanjing He (2024). AdaD: An Adaptive Response Denoising Framework for Robust Student Modeling. In SIGKDD 2024. Accepted.</p>
 </li>
 <li><p>Junzhe Jiang, Shang Qu, Mingyue Cheng, Qi Liu, Zhiding Liu, Hao Zhang, Rujiao Zhang, Kai Zhang, Rui Li, <strong>Jiatong Li</strong>, Min Gao (2024).  Language Modeling for Content-enriched Recommendation. In DASFAA 2024. Accepted.</p>
@@ -24,14 +31,6 @@
 </font>
 </details>
 </li>
-<li><p><strong>Jiatong Li</strong>, Fei Wang, Qi Liu, Mengxiao Zhu, Wei Huang, Zhenya Huang*, Enhong Chen, Yu Su, Shĳin Wang (2022). <a target="_blank" rel="noopener" href="https://dl.acm.org/doi/10.1145/3534678.3539486">HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework</a>. In SIGKDD 2022 (pp. 904–913). ACM.</p>
-<details>
- <summary>Abstract</summary>
-<font size=3>Cognitive diagnostic assessment is a fundamental task in intelligent education, which aims at quantifying students’ cognitive level on knowledge attributes. Since there exists learning dependency among knowledge attributes, it is crucial for cognitive diagnosis models (CDMs) to incorporate attribute hierarchy when assessing students. The attribute hierarchy is only explored by a few CDMs such as Attribute Hierarchy Method, and there are still two significant limitations in these methods. First, the time complexity would be unbearable when the number of attributes is large. Second, the assumption used to model the attribute hierarchy is too strong so that it may lose some information of the hierarchy and is not flexible enough to fit all situations. To address these limitations, we propose a novel Bayesian network-based Hierarchical Cognitive Diagnosis Framework (HierCDF), which enables many traditional diagnostic models to flexibly integrate the attribute hierarchy for better diagnosis. Specifically, we first use an efficient Bayesian network to model the influence of attribute hierarchy on students' cognitive states. Then we design a CDM adaptor to bridge the gap between students' cognitive states and the input features of existing diagnostic models. Finally, we analyze the generality and complexity of HierCDF to show its effectiveness in modeling hierarchy information. The performance of HierCDF is experimentally proved on real-world large-scale datasets.
-</font>
-</details></li>
-</ol>
-<h3 id="Preprint-Papers"><a href="#Preprint-Papers" class="headerlink" title="Preprint Papers"></a>Preprint Papers</h3><ol>
 <li><p>Qi Liu, Yan Zhuang, Haoyang Bi, Zhenya Huang, Weizhe Huang, <strong>Jiatong Li</strong>, Junhao Yu, Zirui Liu, Zirui Hu, Yuting Hong, Zachary A. Pardos, Haiping Ma, Mengxiao Zhu, Shijin Wang, Enhong Chen (2024). <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2404.00712">Survey of Computerized Adaptive Testing: A Machine Learning Perspective</a>. In Arxiv.</p>
 <details>
  <summary>Abstract</summary>
@@ -43,6 +42,13 @@
 <details>
  <summary>Abstract</summary>
 <font size=3>Large Language Models (LLMs) have made progress in various real-world tasks, which stimulates requirements for the evaluation of LLMs. Existing LLM evaluation methods are mainly supervised signal-based which depends on static datasets and cannot evaluate the ability of LLMs in dynamic real-world scenarios where deep interaction widely exists. Other LLM evaluation methods are human-based which are costly and time-consuming and are incapable of large-scale evaluation of LLMs. To address the issues above, we propose a novel Deep Interaction-based LLM-evaluation framework. In our proposed framework, LLMs' performances in real-world domains can be evaluated from their deep interaction with other LLMs in elaborately designed evaluation tasks. Furthermore, our proposed framework is a general evaluation method that can be applied to a host of real-world tasks such as machine translation and code generation. We demonstrate the effectiveness of our proposed method through extensive experiments on four elaborately designed evaluation tasks.
+</font>
+</details>
+</li>
+<li><p><strong>Jiatong Li</strong>, Fei Wang, Qi Liu, Mengxiao Zhu, Wei Huang, Zhenya Huang*, Enhong Chen, Yu Su, Shĳin Wang (2022). <a target="_blank" rel="noopener" href="https://dl.acm.org/doi/10.1145/3534678.3539486">HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework</a>. In SIGKDD 2022 (pp. 904–913). ACM.</p>
+<details>
+ <summary>Abstract</summary>
+<font size=3>Cognitive diagnostic assessment is a fundamental task in intelligent education, which aims at quantifying students’ cognitive level on knowledge attributes. Since there exists learning dependency among knowledge attributes, it is crucial for cognitive diagnosis models (CDMs) to incorporate attribute hierarchy when assessing students. The attribute hierarchy is only explored by a few CDMs such as Attribute Hierarchy Method, and there are still two significant limitations in these methods. First, the time complexity would be unbearable when the number of attributes is large. Second, the assumption used to model the attribute hierarchy is too strong so that it may lose some information of the hierarchy and is not flexible enough to fit all situations. To address these limitations, we propose a novel Bayesian network-based Hierarchical Cognitive Diagnosis Framework (HierCDF), which enables many traditional diagnostic models to flexibly integrate the attribute hierarchy for better diagnosis. Specifically, we first use an efficient Bayesian network to model the influence of attribute hierarchy on students' cognitive states. Then we design a CDM adaptor to bridge the gap between students' cognitive states and the input features of existing diagnostic models. Finally, we analyze the generality and complexity of HierCDF to show its effectiveness in modeling hierarchy information. The performance of HierCDF is experimentally proved on real-world large-scale datasets.
 </font>
 </details></li>
 </ol>
