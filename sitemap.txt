@@ -1,0 +1,4 @@
+http://example.com/2024/10/06/hello-world/
+http://example.com/Resume/index.html
+http://example.com/Publications/index.html
+http://example.com/
