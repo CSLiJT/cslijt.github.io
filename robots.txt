@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cslijt.github.io/new-academic/sitemap.xml
+Sitemap: https://cslijt.github.io/sitemap.xml
