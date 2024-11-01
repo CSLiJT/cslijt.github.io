@@ -1,45 +1,37 @@
 ---
 ---
 
-@inproceedings{10.1145/3534678.3539486,
-author = {Li, Jiatong and Wang, Fei and Liu, Qi and Zhu, Mengxiao and Huang, Wei and Huang, Zhenya and Chen, Enhong and Su, Yu and Wang, Shijin},
-title = {HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework},
-year = {2022},
-isbn = {9781450393850},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-html = {https://doi.org/10.1145/3534678.3539486},
-doi = {10.1145/3534678.3539486},
-abstract = {Cognitive diagnostic assessment is a fundamental task in intelligent education, which aims at quantifying students' cognitive level on knowledge attributes. Since there exists learning dependency among knowledge attributes, it is crucial for cognitive diagnosis models (CDMs) to incorporate attribute hierarchy when assessing students. The attribute hierarchy is only explored by a few CDMs such as Attribute Hierarchy Method, and there are still two significant limitations in these methods. First, the time complexity would be unbearable when the number of attributes is large. Second, the assumption used to model the attribute hierarchy is too strong so that it may lose some information of the hierarchy and is not flexible enough to fit all situations. To address these limitations, we propose a novel Bayesian network-based Hierarchical Cognitive Diagnosis Framework (HierCDF), which enables many traditional diagnostic models to flexibly integrate the attribute hierarchy for better diagnosis. Specifically, we first use an efficient Bayesian network to model the influence of attribute hierarchy on students' cognitive states. Then we design a CDM adaptor to bridge the gap between students' cognitive states and the input features of existing diagnostic models. Finally, we analyze the generality and complexity of HierCDF to show its effectiveness in modeling hierarchy information. The performance of HierCDF is experimentally proved on real-world large-scale datasets.},
-booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-pages = {904–913},
-numpages = {10},
-keywords = {attribute hierarchy, bayesian network, cognitive diagnosis},
-location = {Washington DC, USA},
-series = {KDD '22},
-selected={true},
-abbr = {KDD '22},
-code = {https://github.com/CSLiJT/HCD-code},
-preview = {hiercdf-preview.png}
+@misc{li2024lina,
+      title={Leveraging LLMs for Hypothetical Deduction in Logical Inference: A Neuro-Symbolic Approach}, 
+      author={Qingchuan Li and Jiatong Li and Tongxuan Liu and Yuting Zeng and Mingyue Cheng and Weizhe Huang and Qi Liu},
+      year={2024},
+      eprint={2410.21779},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      html={https://arxiv.org/abs/2410.21779}, 
+      abbr = {Preprint},
+      preview = {lina-preview.png}
 }
 
-@inproceedings{10.1145/3637528.3671684,
-author = {Yao, Fangzhou and Liu, Qi and Yue, Linan and Gao, Weibo and Li, Jiatong and Li, Xin and He, Yuanjing},
-title = {AdaRD: An Adaptive Response Denoising Framework for Robust Learner Modeling},
-year = {2024},
-isbn = {9798400704901},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-html = {https://doi.org/10.1145/3637528.3671684},
-doi = {10.1145/3637528.3671684},
-abstract = {Learner modeling is a crucial task in online learning environments, where Cognitive Diagnosis Models (CDMs) are employed to assess learners' knowledge mastery levels based on recorded response logs. However, the prevalence of noise in recorded response data poses significant challenges, including various behaviors such as guess and slip, casual answers, and system-induced errors. The existence of noise degrades the accuracy of diagnosis results and learner performance predictions. In this work, we propose a general framework, Adaptive Response Denoising (AdaRD), designed to salvage CDMs from the influence of noisy learner-exercise responses. AdaRD extends existing CDMs, incorporating primary training for denoised CDMs and auxiliary training for additional denoising support. The primary training employs binary Generalized Cross Entropy (GCE) loss to slow down the large update of learner knowledge states caused by noisy responses. Simultaneously, we utilize the variance of diagnosed knowledge mastery levels between primary and auxiliary diagnosis modules as a criterion to downweight high-variance responses that are likely to be noisy. In this manner, the proposed framework can prune noisy response learning during training, thereby enhancing the accuracy and robustness of CDMs. Extensive experiments on both real-world and synthetic datasets validate AdaRD's effectiveness in mitigating the impact of noisy learner-exercise responses.},
-booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-pages = {3886–3895},
-numpages = {10},
-keywords = {adaptive denoising, cognitive diagnosis, learner modeling, noisy responses},
-location = {Barcelona, Spain},
-series = {KDD '24},
-abbr = {KDD '24}
+@inproceedings{li2024pertevalunveilingrealknowledge,
+      title={PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant Perturbations (Spotlight)}, 
+      author={Jiatong Li and Renjun Hu and Kunzhe Huang and Yan Zhuang and Qi Liu and Mengxiao Zhu and Xing Shi and Wei Lin},
+      year={2024},
+      booktitle={Advances in Neural Information Processing Systems},
+      html={https://arxiv.org/abs/2405.19740}, 
+      selected={true},
+      abbr = {NeurIPS '24},
+      code = {https://github.com/aigc-apps/PertEval},
+      preview = {perteval-preview.png}
+}
+
+@inproceedings{liu2024cat,
+      title={Computerized Adaptive Testing via Collaborative Ranking}, 
+      author={Zirui Liu and Yan Zhuang and Qi Liu and Jiatong Li and Yuren Zhang and Zhenya Huang and Jinze Wu and Shijin Wang},
+      year={2024},
+      booktitle={Advances in Neural Information Processing Systems},
+      abbr = {NeurIPS '24},
+      preview = {ccat-preview.png}
 }
 
 @inproceedings{10.1145/3589334.3645437,
@@ -64,41 +56,23 @@ code = {https://github.com/CSLiJT/ID-CDF},
 preview = {idcdf-preview.png}
 }
 
-@misc{li2024pertevalunveilingrealknowledge,
-      title={PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant Perturbations (Spotlight)}, 
-      author={Jiatong Li and Renjun Hu and Kunzhe Huang and Yan Zhuang and Qi Liu and Mengxiao Zhu and Xing Shi and Wei Lin},
-      year={2024},
-      eprint={2405.19740},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      html={https://arxiv.org/abs/2405.19740}, 
-      selected={true},
-      abbr = {NeurIPS '24},
-      code = {https://github.com/aigc-apps/PertEval},
-      preview = {perteval-preview.png}
-}
-
-@misc{liu2024cat,
-      title={Computerized Adaptive Testing via Collaborative Ranking}, 
-      author={Zirui Liu and Yan Zhuang and Qi Liu and Jiatong Li and Yuren Zhang and Zhenya Huang and Jinze Wu and Shijin Wang},
-      year={2024},
-      eprint={xxxx.xxxxx},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      selected={true},
-      abbr = {NeurIPS '24}
-}
-
-
-@misc{li2023staticdatasetsdeepinteraction,
-      title={Beyond Static Datasets: A Deep Interaction Approach to LLM Evaluation}, 
-      author={Jiatong Li and Rui Li and Qi Liu},
-      year={2023},
-      eprint={2309.04369},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      html={https://arxiv.org/abs/2309.04369}, 
-      abbr = {Preprint}
+@inproceedings{10.1145/3637528.3671684,
+author = {Yao, Fangzhou and Liu, Qi and Yue, Linan and Gao, Weibo and Li, Jiatong and Li, Xin and He, Yuanjing},
+title = {AdaRD: An Adaptive Response Denoising Framework for Robust Learner Modeling},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+html = {https://doi.org/10.1145/3637528.3671684},
+doi = {10.1145/3637528.3671684},
+abstract = {Learner modeling is a crucial task in online learning environments, where Cognitive Diagnosis Models (CDMs) are employed to assess learners' knowledge mastery levels based on recorded response logs. However, the prevalence of noise in recorded response data poses significant challenges, including various behaviors such as guess and slip, casual answers, and system-induced errors. The existence of noise degrades the accuracy of diagnosis results and learner performance predictions. In this work, we propose a general framework, Adaptive Response Denoising (AdaRD), designed to salvage CDMs from the influence of noisy learner-exercise responses. AdaRD extends existing CDMs, incorporating primary training for denoised CDMs and auxiliary training for additional denoising support. The primary training employs binary Generalized Cross Entropy (GCE) loss to slow down the large update of learner knowledge states caused by noisy responses. Simultaneously, we utilize the variance of diagnosed knowledge mastery levels between primary and auxiliary diagnosis modules as a criterion to downweight high-variance responses that are likely to be noisy. In this manner, the proposed framework can prune noisy response learning during training, thereby enhancing the accuracy and robustness of CDMs. Extensive experiments on both real-world and synthetic datasets validate AdaRD's effectiveness in mitigating the impact of noisy learner-exercise responses.},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {3886–3895},
+numpages = {10},
+keywords = {adaptive denoising, cognitive diagnosis, learner modeling, noisy responses},
+location = {Barcelona, Spain},
+series = {KDD '24},
+abbr = {KDD '24}
 }
 
 @misc{liu2024surveycomputerizedadaptivetesting,
@@ -132,4 +106,38 @@ preview = {idcdf-preview.png}
       primaryClass={cs.IR},
       html={https://arxiv.org/abs/2309.10435}, 
       abbr = {DASFAA '24}
+}
+
+@misc{li2023staticdatasetsdeepinteraction,
+      title={Beyond Static Datasets: A Deep Interaction Approach to LLM Evaluation}, 
+      author={Jiatong Li and Rui Li and Qi Liu},
+      year={2023},
+      eprint={2309.04369},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      html={https://arxiv.org/abs/2309.04369}, 
+      abbr = {Preprint},
+      preview = {deepeval-preview.png}
+}
+
+@inproceedings{10.1145/3534678.3539486,
+author = {Li, Jiatong and Wang, Fei and Liu, Qi and Zhu, Mengxiao and Huang, Wei and Huang, Zhenya and Chen, Enhong and Su, Yu and Wang, Shijin},
+title = {HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework},
+year = {2022},
+isbn = {9781450393850},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+html = {https://doi.org/10.1145/3534678.3539486},
+doi = {10.1145/3534678.3539486},
+abstract = {Cognitive diagnostic assessment is a fundamental task in intelligent education, which aims at quantifying students' cognitive level on knowledge attributes. Since there exists learning dependency among knowledge attributes, it is crucial for cognitive diagnosis models (CDMs) to incorporate attribute hierarchy when assessing students. The attribute hierarchy is only explored by a few CDMs such as Attribute Hierarchy Method, and there are still two significant limitations in these methods. First, the time complexity would be unbearable when the number of attributes is large. Second, the assumption used to model the attribute hierarchy is too strong so that it may lose some information of the hierarchy and is not flexible enough to fit all situations. To address these limitations, we propose a novel Bayesian network-based Hierarchical Cognitive Diagnosis Framework (HierCDF), which enables many traditional diagnostic models to flexibly integrate the attribute hierarchy for better diagnosis. Specifically, we first use an efficient Bayesian network to model the influence of attribute hierarchy on students' cognitive states. Then we design a CDM adaptor to bridge the gap between students' cognitive states and the input features of existing diagnostic models. Finally, we analyze the generality and complexity of HierCDF to show its effectiveness in modeling hierarchy information. The performance of HierCDF is experimentally proved on real-world large-scale datasets.},
+booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {904–913},
+numpages = {10},
+keywords = {attribute hierarchy, bayesian network, cognitive diagnosis},
+location = {Washington DC, USA},
+series = {KDD '22},
+selected={true},
+abbr = {KDD '22},
+code = {https://github.com/CSLiJT/HCD-code},
+preview = {hiercdf-preview.png}
 }
