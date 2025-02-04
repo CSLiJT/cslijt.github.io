@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: myprofile.jpg
+  image: IMG_0012.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="font-size: 14px;">cslijt[at]mail.ustc.edu.cn</p>
