@@ -8,7 +8,7 @@ middle_name:
 last_name: Li
 email: # cslijt@mail.ustc.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A Master's student from University of Science and Technology of China (USTC).
+  A computer science PhD student at University of Wisconsin-Madison.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
