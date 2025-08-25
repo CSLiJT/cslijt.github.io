@@ -7,9 +7,9 @@ permalink: /
 profile:
   align: right
   image: IMG_0012.JPG
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p style="font-size: 14px;">cslijt[at]mail.ustc.edu.cn</p>
+  image_circular: true # crops the image to make it circular
+  # more_info: >
+  #   <p style="font-size: 14px;">jli2947[at]wisc.edu</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
