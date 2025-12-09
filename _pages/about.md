@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 Jiatong Li is a 1st year PhD student at [School of Computer, Data & Information Sciences](https://www.cs.wisc.edu/), [University of Wisconsin-Madison](https://www.wisc.edu/), advised by Dr. [Sharon Li](https://pages.cs.wisc.edu/~sharonli/). His research interest includes **large language model (LLM) agents, especially their reasoning and reliability challenges**. He tries to resolve the following questions during his PhD study:
 
 - How can we **quantify** the action of agents in real-world scenarios?
-- How can we **track** the causal effect of agents in long trajectories?
+- How can we **track** the failure propagation of agent actions in long trajectories?
 - How can agents **interact** better with users and environments?
 
 
